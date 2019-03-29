@@ -1,0 +1,16 @@
+{
+    "name": "DeviceAppPlugin",
+    "version": "1.0.3",
+    "description": "DeviceAppHelper by Eric 180025",
+
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        
+    },
+
+    "cordovaPlatforms": [],
+    "dependencies": {
+
+    }
+}

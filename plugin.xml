@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-deviceApp" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>DeviceApp</name>
+    <js-module name="deviceapp" src="www/deviceapp.js">
+        <clobbers target="DeviceApp" />
+    </js-module>
+    
+    <!--android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="DeviceAppPlugin">
+                <param name="android-package" value="me.ericdev.cordova.plugins.deviceapp.DeviceAppPlugin"/>
+            </feature>
+        </config-file>
+        
+        <source-file src="src/me/ericdev/cordova/plugins/deviceapp/DeviceAppPlugin.java" target-dir="src/me/ericdev/cordova/plugins/deviceapp" />
+    </platform>
+</plugin>
