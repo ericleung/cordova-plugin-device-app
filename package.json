@@ -1,27 +1,29 @@
 {
-    "name": "cordova-plugin-deviceApp",
-    "version": "1.0.3",
-    "description": "DeviceAppHelper by Eric 180025",
-
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        
-    },
-
-	"repository": {
-	    "type": "git",
-	    "url": "http://mobileapi.gree.com:3000/180025/deviceAppPlugin"
-	  },
-
-
+  "name": "cordova-plugin-deviceApp",
+  "version": "1.0.3",
+  "description": "DeviceAppHelper",
   "cordova": {
     "id": "cordova-plugin-deviceApp",
     "platforms": [
       "android"
     ]
   },
-    "dependencies": {
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericleung/cordova-plugin-device-app"
+  },
+  "keywords": [
+    "device-app"
+  ],
+  "author": "Eric Leung",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
     }
+  },
+  "devDependencies": {
+  }
 }
